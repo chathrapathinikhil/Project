@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout3"
+    android:weightSum="100"
+    android:background="@color/red_background">
+
+    <!--Fragment1 will go inside here-->
+    <FrameLayout
+        android:id="@+id/frame_for_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="65"
+        tools:layout_conversion_absoluteHeight="499dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <!--Fragment2 will go inside here-->
+    <FrameLayout
+        android:id="@+id/frame_for_fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="25"
+        tools:layout_conversion_absoluteHeight="133dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <!--Fragment3 will go inside here (SQLite database)-->
+    <FrameLayout
+        android:id="@+id/frame_for_fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="5"
+        tools:layout_conversion_absoluteHeight="133dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:text="@string/hide_fragment_2" />
+
+</LinearLayout>

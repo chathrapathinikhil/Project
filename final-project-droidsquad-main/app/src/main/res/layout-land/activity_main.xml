@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout3"
+    android:gravity="center">
+
+    <!--Fragment1 will go inside here-->
+    <FrameLayout
+        android:id="@+id/frame_for_fragment1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.65"/>
+
+    <!--Fragment2 will go inside here-->
+    <FrameLayout
+        android:id="@+id/frame_for_fragment2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.35"/>
+
+    <!--Fragment3 will go inside here-->
+    <FrameLayout
+        android:id="@+id/frame_for_fragment3"
+        android:layout_width="240dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

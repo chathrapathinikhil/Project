@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Workodoro</string>
+    <string name="fragment_2" translatable="false">Fragment 2</string>
+    <string name="hide_fragment_2">Hide</string>
+    <string name="workodoro" translatable="false">WORKODORO</string>
+    <string name="focus">focus</string>
+    <string name="_short">short</string>
+    <string name="_long">long</string>
+    <string name="settings">settings</string>
+    <string name="reset">reset</string>
+    <string name="start">start</string>
+    <string name="skip">skip</string>
+    <string name="pause">pause</string>
+    <string name="resume">resume</string>
+    <string name="cycle">CYCLE #</string>
+    <string name="fragment_3" translatable="false">fragment_3</string>
+</resources>

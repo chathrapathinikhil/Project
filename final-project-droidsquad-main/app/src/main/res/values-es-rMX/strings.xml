@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hide_fragment_2">Esconder</string>
+    <string name="focus">enfocar</string>
+    <string name="_short">corta</string>
+    <string name="_long">larga</string>
+    <string name="settings">ajustes</string>
+    <string name="reset">reiniciar</string>
+    <string name="start">comenzar</string>
+    <string name="skip">saltar</string>
+    <string name="pause">pausa</string>
+    <string name="resume">reanudar</string>
+    <string name="cycle">CICLO #</string>
+</resources>
